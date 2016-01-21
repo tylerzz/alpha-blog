@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <head>
 <style>
 header {
@@ -14,6 +16,8 @@ ul#menu {
 
 ul#menu li {
     display: inline;
+    margin:5px
+    padding:5px
 }
 
 ul#menu li a {
@@ -25,194 +29,76 @@ ul#menu li a {
 }
 
 ul#menu li a:hover {
-    background-color: orange;
+    background-color: SlateGray;
 }
+
+footer {
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:30px;
+}
+
 </style>
 </head>
 
 
-<body>
+<body style="background-color:black">
 
 <header>
 <ul id="menu">
-  <li><a href="/html/default.asp">HTML</a></li>
-  <li><a href="/css/default.asp">CSS</a></li>
-  <li><a href="/js/default.asp">JavaScript</a></li>
-  <li><a href="/php/default.asp">PHP</a></li>
+  <li><a href="https://guitarheros.herokuapp.com/" target="_blank">Home</a></li>
+  <li><a href="http://www.bbking.com" target="_blank">B.B.KING</a></li>
+  <li><a href="http://www.srvofficial.com" target="_blank">Stevie Ray Vaughan</a></li>
+  <li><a href="http://www.van-halen.com" target="_blank">VAN HALEN</a></li>
+  <li><a href="http://www.vai.com" target="_blank">STEVE VAI</a></li>
+  <li><a href="https://guitarheros.herokuapp.com/about" target="_blank">About</a></li>
 </ul>
 </header>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<body style="background-color:lightblue; text-align:center">
-
-<h1>About W3Schools</h1>
-<h1>The best porn website in the world</h1>
-
-<p>Do you want to know what is the best porn website in the world?</p>
-
-<form>
-<input type="file" name="img" multiple>
-</form>
-
-<button type="button" onclick="myFunction()">Click Me!</button>
-
-<p id="demo">It will be shown here!</p>
-
-<script>
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Now you have seen it!";
-}
-</script>
-
-<script>
-function light(sw) {
-    var pic;
-    if (sw == 0) {
-        pic = "pic_bulboff.gif"
-    } else {
-        pic = "pic_bulbon.gif"
-    }
-    document.getElementById('myImage').src = pic;
-}
-</script>
-
-<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
-
-<p>
-<button type="button" onclick="light(1)">Light On</button>
-<button type="button" onclick="light(0)">Light Off</button>
-</p>
-<p title="About W3Schols">
-W3Schools is a web developer's site.
-It provides tutorials and references covering
-many aspects of web programming,
-including HTML, CSS, JavaScript, XML, SQL, PHP, ASP, etc.
-</p>
-
-<p><b>
-
-<p>My first paragraph.</p>
-If you move the mouse over the paragraph above,
-the title will display as a tooltip.
-</b></p>
 
 
 
-
-<table style="width:100%; border: 1px solid blue; border-collapse:collaspse">
-	<caption>Hotest Food On Earth</caption>
-	<tr>
-		<th>Name</th>
-		<th>Hotness</th>
-	</tr>
-	<tr>
-		<td>Burger</td>
-		<td>Chips</td>
-	</tr>
-	<tr>
-		<td>50</td>
-		<td>80</td>
-	</tr>
-</table>
+<img src="http://i.imgur.com/0mhr1ZI.jpg" alt="http://www.bbking.com" width="100%" height="100%" style="border:none">
 
 
 
+<div class="w3-container w3-blue-grey">
+<h2 style="text-align:center">"The beautiful thing about learning is nobody can take it away from you."</h2>
+<p class="w3-large" style="text-align:center">--B.B.KING</p>
+</div>
 
-<p> title="About W3Schools">W3Schools is a web developer's site.</p>
+<div class="w3-row w3-border">
+<div class="w3-third w3-container w3-black">
+  <h2>Lucille (guitar)</h2>
+  <img src="http://static3.nydailynews.com/polopoly_fs/1.2223566.1431706047!/img/httpImage/image.jpg_gen/derivatives/article_635/obit-bb-king.jpg" alt="http://www.bbking.com" width="100%" height="100%" style="border:none">
+  <br>
+  <br>
+  <br>
+  <p>In the winter of 1949, King played at a dance hall in Twist, Arkansas. The hall was heated by a barrel half-filled with burning kerosene, a fairly common practice at the time. During a performance...<a href="https://en.wikipedia.org/wiki/Lucille_(guitar)" target="_blank">read more</a></p>
 
-<blockquote cite="http://www.worldwildlife.org/who/index.html">
-For 50 years, WWF has been protecting the future of nature.
-The world's leading conservation organization,
-WWF works in 100 countries and is supported by
-1.2 million members in the United States and
-close to 5 million globally.
-</blockquote>
-
-
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-table {
-    width:100%;
-}
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-    text-align: left;
-}
-table#t01 tr:nth-child(even) {
-    background-color: #eee;
-}
-table#t01 tr:nth-child(odd) {
-   background-color:#fff;
-}
-table#t01 th	{
-    background-color: black;
-    color: white;
-}
-</style>
-</head>
-<body>
-
-<table>
-  <tr>
-    <th>First Name</th>
-    <th>Last Name</th>
-    <th>Points</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
-  <tr>
-    <td>John</td>
-    <td>Doe</td>
-    <td>80</td>
-  </tr>
-</table>
-
-<br>
-
-<table id="t01">
-  <tr>
-    <th>First Name</th>
-    <th>Last Name</th>
-    <th>Points</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
-  <tr>
-    <td>John</td>
-    <td>Doe</td>
-    <td>80</td>
-  </tr>
-</table>
-
-</body>
-</html>
+</div>
+<div class="w3-third w3-container w3-black">
+  <h2>Biography</h2>
+  <img src="http://leeandkinshow.com/wp-content/uploads/2015/05/BBkingStory-620x400.jpg" alt="http://www.bbking.com" width="100%" height="100%" style="border:none"><br>
+  <br>
+  <br>
+  <br>
 
 
+
+  <p>His reign as King of the Blues has been as long as that of any monarch on earth. Yet B.B. King continues to wear his crown well. At age 76, he is still light on his feet, singing and playing the blues...<a href="http://www.bbking.com/bio/" target="_blank">read more</a></p>
+
+</div>
+<div class="w3-third w3-container w3-black">
+  <h2>The Thrill Is Gone</h2>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/4fk2prKnYnI" frameborder="0" allowfullscreen></iframe>
+  <p>B.B. King recorded his version of "The Thrill Is Gone" in June 1969 for his album Completely Well, released the same year. King's version is a slow twelve-bar blues notated in the key of B minor in 4/4...<a href="https://en.wikipedia.org/wiki/The_Thrill_Is_Gone" target="_blank">read more</a></p>
+</div>
+</div>
+
+<footer>
+  <p><i>An Ongoing Ruby on Rails Learning Project</i></P>
+</footer>
 </body>
 </html>
 <%= link_to 'About', about_path %>
