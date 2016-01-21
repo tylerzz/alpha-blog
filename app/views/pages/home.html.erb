@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+}
+</style>
+</head>
+
+
+<body>
+
+<header>
+<ul id="menu">
+  <li><a href="/html/default.asp">HTML</a></li>
+  <li><a href="/css/default.asp">CSS</a></li>
+  <li><a href="/js/default.asp">JavaScript</a></li>
+  <li><a href="/php/default.asp">PHP</a></li>
+</ul>
+</header>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body style="background-color:lightblue; text-align:center">
+
+<h1>About W3Schools</h1>
+<h1>The best porn website in the world</h1>
+
+<p>Do you want to know what is the best porn website in the world?</p>
+
+<form>
+<input type="file" name="img" multiple>
+</form>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<p id="demo">It will be shown here!</p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Now you have seen it!";
+}
+</script>
+
+<script>
+function light(sw) {
+    var pic;
+    if (sw == 0) {
+        pic = "pic_bulboff.gif"
+    } else {
+        pic = "pic_bulbon.gif"
+    }
+    document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+
+<p>
+<button type="button" onclick="light(1)">Light On</button>
+<button type="button" onclick="light(0)">Light Off</button>
+</p>
+<p title="About W3Schols">
+W3Schools is a web developer's site.
+It provides tutorials and references covering
+many aspects of web programming,
+including HTML, CSS, JavaScript, XML, SQL, PHP, ASP, etc.
+</p>
+
+<p><b>
+
+<p>My first paragraph.</p>
+If you move the mouse over the paragraph above,
+the title will display as a tooltip.
+</b></p>
+
+
+
+
+<table style="width:100%; border: 1px solid blue; border-collapse:collaspse">
+	<caption>Hotest Food On Earth</caption>
+	<tr>
+		<th>Name</th>
+		<th>Hotness</th>
+	</tr>
+	<tr>
+		<td>Burger</td>
+		<td>Chips</td>
+	</tr>
+	<tr>
+		<td>50</td>
+		<td>80</td>
+	</tr>
+</table>
+
+
+
+
+<p> title="About W3Schools">W3Schools is a web developer's site.</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th	{
+    background-color: black;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+<br>
+
+<table id="t01">
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
+</body>
+</html>
+<%= link_to 'About', about_path %>
